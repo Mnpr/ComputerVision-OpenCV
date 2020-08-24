@@ -1,16 +1,21 @@
-import cv2
+import cv2  
+  
+# Reading an image in default mode 
+image = cv2.imread('./ImgResources/owl.jpeg') 
 
-img = cv2.imread('./owl.jpg')
+cv2.rectangle(image, pt1=(171,44), pt2=(288,128), color=(255,0,0), thickness=5) 
 
+# Window name in which image is displayed 
+window_name = 'image'
 while True:
+    cv2.imshow(window_name, image) 
 
-    cv2.imshow('Owl',img)
-
-    # EXPLANATION FOR THIS LINE OF CODE:
-    # https://stackoverflow.com/questions/35372700/whats-0xff-for-in-cv2-waitkey1/39201163
-    
-    # IF we've waited at least 1 ms AND we've pressed the Esc
-    if cv2.waitKey(1) & 0xFF == 27:
+    #waits for user to press any key 
+    #(this is necessary to avoid Python kernel form crashing) 
+    if cv2.waitKey(0) & 0xFF == 27:
         break
 
+cv2.waitKey(0)  
+  
+#closing all open windows  
 cv2.destroyAllWindows()
