@@ -1,6 +1,6 @@
 # Computer Vision - Python
 
-## 1. Basic Image Processing
+## 1.Image Processing
 
 - Numpy Images
 
@@ -10,10 +10,14 @@
 
 - Basic Transformations
 
-## 2. Intermediate Image Processing
+- Static /Dynamic Drawing in Images
 
 - Thresholding
 
-- Dynamic Drawing in Images
+- Blending and pasting
 
 - Blurring-Smoothing
+
+- Morphologocal Operators
+
+## 2.Video Processing
