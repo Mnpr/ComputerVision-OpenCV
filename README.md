@@ -18,6 +18,10 @@
 
 - Blurring-Smoothing
 
-- Morphologocal Operators
+- Morphologocal Operator
+
+- Gradients
+
+- Histograms
 
 ## 2.Video Processing
