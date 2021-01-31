@@ -1,4 +1,4 @@
-# Computer Vision - Python
+# Computer Vision - OpenCV (Python)
 
 ## 1.Image Processing
 
